@@ -47,7 +47,7 @@ const getWheather = () => {
         photo.setAttribute("src", "./img/unknown.png");
       }
     })
-    .catch(() => (warning.textContent = "Wpisz poprawna nazwe miasta!"));
+    .catch(() => (warning.textContent = "Write correct name!"));
 };
 
 button.addEventListener("click", getWheather);
